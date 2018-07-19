@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "An improved combineReducers for Redux",
   "main": "./dist/sharedCombineReducers.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "build": "babel src --out-dir dist"
