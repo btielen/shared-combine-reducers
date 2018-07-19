@@ -1,0 +1,34 @@
+{
+  "name": "shared-combined-reducer",
+  "version": "1.0.0",
+  "description": "An improved combineReducers for Redux",
+  "main": "./dist/sharedCombineReducers.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btielen/shared-combine-reducers"
+  },
+  "keywords": [
+    "redux",
+    "reducer",
+    "shared"
+  ],
+  "author": "Benno Tielen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btielen/shared-combine-reducers/issues"
+  },
+  "homepage": "https://github.com/btielen/shared-combine-reducers#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.4.1",
+    "redux": "^4.0.0",
+    "regenerator-runtime": "^0.12.0"
+  }
+}
